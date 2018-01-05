@@ -1,0 +1,3 @@
+<% @chatroom.messages.each do |msg| %>
+  <p><b><%= msg.user.username %> : </b> <%= msg.body %></p>
+<% end %>

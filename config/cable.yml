@@ -1,0 +1,10 @@
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: redis://redistogo:32bd2e2a43693c0b5bc211f222a76378@soldierfish.redistogo.com:9043/
+  channel_prefix: socket-example_production
