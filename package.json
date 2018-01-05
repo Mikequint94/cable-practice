@@ -1,7 +1,4 @@
 {
   "name": "socket-example",
-  "private": true,
-  "dependencies": {
-    "jquery": "^3.2.1"
-  }
+  "private": true
 }
